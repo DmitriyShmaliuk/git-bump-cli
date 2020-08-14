@@ -1,0 +1,23 @@
+{
+  "name": "git-bump",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "bin": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliaamKing/git-version-bump.git"
+  },
+  "author": "Dmitriy Shmaliuk <dmitriy.shmaliuk@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilliaamKing/git-version-bump/issues"
+  },
+  "homepage": "https://github.com/WilliaamKing/git-version-bump#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "child-process-promise": "^2.2.1",
+    "commander": "^6.0.0",
+    "semver": "^7.3.2"
+  }
+}
