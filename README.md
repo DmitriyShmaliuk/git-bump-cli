@@ -1,1 +1,1 @@
-# git-version-bump
+# git-bump
