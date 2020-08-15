@@ -1,4 +1,4 @@
-# git-bum
+# git-bum-cli
 
 This package is tools for increase projects version.
 
