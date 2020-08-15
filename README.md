@@ -4,11 +4,13 @@ This package is tools for increase projects version.
 
 ## Installing
 
-Just write down this command in your (terminal/console):
+Just write down this commands in your (terminal/console):
+
+Clone project:
 
 `git clone git+https://github.com/DmitriyShmaliuk/git-bump-cli.git#VERSION`
 
-Install dependencies, use command:
+Install dependencies:
 `npm i`
 
 Linking the package:
