@@ -80,19 +80,32 @@ exports.mergeInto = function (name) {
             resolve();
         }
         catch (err) {
-            reject (err);
+            reject(err);
         }
     });
 }
 
-exports.push = function (name){
+exports.pull = function (name) {
     return new Promise(async (resolve, reject) => {
         try {
-            await exec(`git pull origin ${name} && git push`);
+            await exec(`git pull origin ${name}`);
+            resolve();
+        }
+        catch (err){
+            reject(err);
+        }
+    })
+}
+
+exports.push = function (name) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            await exec(`git push origin ${name}`);
             resolve();
         }
         catch (err) {
-            reject (err);
+            reject(err);
         }
     });
 }
+
