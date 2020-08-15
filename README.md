@@ -5,6 +5,7 @@ This package is tools for increase project version.
 ## Installing
 
 Just write down this command in your (terminal/console):
+
 `git clone git+https://github.com/DmitriyShmaliuk/git-bump-cli.git#VERSION`
 
 Install dependencies, use command:
@@ -29,13 +30,19 @@ Linking the package:
 ## Usage:
 
 $ git-bump --patch
+
 $ git-bump --minor
+
 $ git-bump --major
 
 $ git-bump --patch --no-tag
+
 $ git-bump --patch --no-merge
+
 $ git-bump --patch --push
 
 ## Versions:
+
 v0.0.1 - 14.08.2020
+
 V0.0.2 - 15.08.2020 (last)
