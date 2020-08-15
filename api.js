@@ -72,11 +72,15 @@ exports.tag = function (name) {
     });
 }
 
-exports.mergeInto = function (name) {
+exports.mergeInto = function (finalBranch) {
     return new Promise(async (resolve, reject) => {
         try {
-            const { stdout } = await exec('git branch --show-current');
-            await exec(`git checkout ${name} && git merge ${stdout} --no-ff`);
+            const { stdout: currentBranch } = await exec('git branch --show-current');
+
+            if (finalBranch !== currentBranch) {
+                await exec(`git checkout ${finalBranch} && git merge ${currentBranch} --no-ff`);
+            }
+
             resolve();
         }
         catch (err) {
@@ -91,7 +95,7 @@ exports.pull = function (name) {
             await exec(`git pull origin ${name}`);
             resolve();
         }
-        catch (err){
+        catch (err) {
             reject(err);
         }
     })
