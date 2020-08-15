@@ -73,7 +73,9 @@ async function increaseVersion() {
         }
 
         if (program.push){
+            await api.pull('master');
             await api.push('master');
+            await api.push(`v${version}`);
         }
 
         console.log(chalk.green(`Version has incresed to ${version}`));
