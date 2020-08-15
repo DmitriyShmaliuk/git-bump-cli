@@ -4,7 +4,7 @@ This package is tools for increase projects version.
 
 ## Installing
 
-Just write down this commands in your (terminal/console):
+Just write down these commands in your (terminal/console):
 
 Clone project:
 
