@@ -8,6 +8,10 @@ Just write down these commands in your (terminal/console):
 
 Clone project:
 
+`npm i @d.shmaliuk/git-bump`
+
+or use next command:
+
 `git clone git+https://github.com/DmitriyShmaliuk/git-bump-cli.git#VERSION`
 
 Install dependencies:
