@@ -1,6 +1,6 @@
 {
   "name": "@d.shmaliuk/git-bump-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This package is tools for increase projects version.",
   "main": "index.js",
   "bin": {
