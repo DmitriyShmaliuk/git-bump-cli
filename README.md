@@ -8,7 +8,7 @@ Just write down these commands in your (terminal/console):
 
 Clone project:
 
-`npm i @d.shmaliuk/git-bump-cli`
+`npm i @d.shmaliuk/git-bump-cli -g`
 
 or use next command:
 
