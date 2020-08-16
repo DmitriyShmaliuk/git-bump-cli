@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WilliaamKing/git-version-bump.git"
+    "url": "git+https://github.com/DmitriyShmaliuk/git-version-bump.git"
   },
   "author": "Dmitriy Shmaliuk <dmitriy.shmaliuk@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/WilliaamKing/git-version-bump/issues"
+    "url": "https://github.com/DmitriyShmaliuk/git-version-bump/issues"
   },
-  "homepage": "https://github.com/WilliaamKing/git-version-bump#readme",
+  "homepage": "https://github.com/DmitriyShmaliuk/git-version-bump#readme",
   "dependencies": {
     "chalk": "^4.1.0",
     "child-process-promise": "^2.2.1",
