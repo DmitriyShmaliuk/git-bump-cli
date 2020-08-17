@@ -29,6 +29,10 @@
   "keywords": [
     "git",
     "bump",
-    "web"
+    "web",
+    "push",
+    "pull",
+    "commit",
+    "merge"
   ]
 }
