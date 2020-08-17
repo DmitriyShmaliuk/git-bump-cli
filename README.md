@@ -35,7 +35,7 @@ Linking the package:
 
 ## Features:
 
-1. You have to commit all files before start to use the some commands from this package. Otherwise command will fail.
++  You have to commit all files before start to use some commands from this package. Otherwise a command will fail.
 
 ## Usage:
 
@@ -67,4 +67,8 @@ V0.0.6 - 16.08.2020
 
 V0.0.7 - 16.08.2020
 
-V0.0.8 - 16.08.2020 (last)
+V0.0.8 - 16.08.2020
+
+V0.0.9 - 17.08.2020
+
+V0.0.10 - 17.08.2020 (last)
