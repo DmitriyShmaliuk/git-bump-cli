@@ -33,6 +33,10 @@ Linking the package:
 |            | --no-merge | Dont't merge branches         |
 |            | --push     | Push to the remote repository |
 
+## Features:
+
+1. You have to commit all files before start to use the some commands from this package. Otherwise command will fail.
+
 ## Usage:
 
 $ git-bump --patch
