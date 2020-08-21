@@ -50,8 +50,11 @@ function increseVersion(filePath, type) {
 
 exports.commit = function (files, message) {
     return new Promise(async (resolve, reject) => {
+        const filesName = files.map(file => path.parse(file).base);
+        
         try {
-            await exec(`git commit ${files.join(' ')} -m "${message}"`);
+            await exec(`git add ${filesName.join(' ')}`);
+            await exec(`git commit -m "${message}"`);
             resolve();
         }
         catch (err) {
