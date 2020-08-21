@@ -10,7 +10,7 @@ Clone project:
 
 `npm i @d.shmaliuk/git-bump-cli -g`
 
-or use next command:
+or use next commands:
 
 `git clone git+https://github.com/DmitriyShmaliuk/git-bump-cli.git#VERSION`
 
