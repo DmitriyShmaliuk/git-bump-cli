@@ -53,4 +53,4 @@ $ git-bump --patch --push
 
 ## Last version:
 
-V0.0.13 - 17.08.2020
+V0.0.14 - 21.08.2020
